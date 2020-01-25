@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <p>All zip codes in Denmark with city names</p>            
+            <input id="CIButton" type="submit"  value="Find">
+        </div>
+        <br><br>
+
+        <p>List of all people:</p>
+        <input id="allContactButton" type="submit" value="view all people">
+        <br><br>
+
+        <p>Full list of all people:</p>
+        <input id="allButton" type="submit" value="view all people">
+        <br><br>
+
+        <div>
+            <p>Person by ID:</p>
+            <input type="number" placeholder="Person ID" id="ContactPID">
+            <input id="getContactID" type="submit" value="Search">
+        </div>
+        <br><br>
+
+        <div>
+            <p>Full person by ID:</p>
+            <input type="number" placeholder="Person ID" id="PID">
+            <input id="getUserID" type="submit" value="Search">
+        </div>
+        <br><br>
+
+        <div>
+            <p>Delete person by ID:</p>
+            <input type="number" placeholder="Person ID" id="deletePID">
+            <input id="deleteButton" type="submit" value="delete">
+        </div>
+        <br><br>
+
+        <div>
+            <p>Add person:</p>
+            <table>
+                <tr>
+                    <th>Name & Info</th>
+                    <th>Address</th>
+                </tr>
+                <tr>
+                    <td><input id="firstname" type="text" placeholder="First name"></td>
+                    <td><input id="streetname" type="text" placeholder="Street name"></td> 
+                </tr>
+                <tr>
+                    <td><input id="lastname" type="text" placeholder="Surname"></td>
+                    <td><input id="housenumber" type="number" placeholder="House Number"></td> 
+                </tr>
+                <tr>
+                    <td><input id="email" type="email" placeholder="Email"></td>
+                    <td><input id="zip" type="number" placeholder="Zipcode"></td> 
+                </tr>
+            </table>
+            <input id="addperson" type="submit" value="Add">
+        </div>
+        <br><br>
+        <div id="container">
+
+        </div>
+    </body>
+    <script src="ca2.js" defer ></script>
+</html>

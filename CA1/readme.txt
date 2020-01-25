@@ -1,0 +1,2 @@
+En af opgaverne, fra før min gruppe stoppede med at fungere. Jeg antager jeg har fuldt studypoint i denne opgave, hvis ikke vil jeg gerne informeres om at skulle lave den om igen. Jeg lavede fetch delen så længe siden.
+Jeg er dog ikke klar over hvorfor den ikke er blevet uploadet før december.

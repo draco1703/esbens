@@ -1,0 +1,9 @@
+facade\PersonFacade.class
+facade\IPersonFacade.class
+entity\Address.class
+rest\ApplicationConfig.class
+entity\Person.class
+entity\AddressDTO.class
+facade\JSONConverter.class
+rest\PersonResource.class
+entity\PersonDTO.class

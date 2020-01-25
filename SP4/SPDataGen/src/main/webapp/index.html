@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DataGenerator</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            <label> Amount:</label><input type="number" id="amount" value="50"> 
+        </div>
+        <div>
+            <label> Starting ID:</label><input type="number" id="starting" value="1"> 
+        </div>
+        <button id="btnsend" onclick="doSubmit()"> Submit </button>
+
+        <table id="tbl">
+            <thead>
+            <th>First Name</th><th>Surname</th><th>ID</th><th>Age</th>
+        </thead>
+        <tbody id="tblbody"></tbody>
+    </table>
+</body>
+<script  src="app.js"></script>
+</html>

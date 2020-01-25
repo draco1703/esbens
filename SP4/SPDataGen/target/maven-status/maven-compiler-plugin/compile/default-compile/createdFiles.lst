@@ -1,0 +1,3 @@
+generator\Generator.class
+rest\PersonGenResource.class
+rest\ApplicationConfig.class
